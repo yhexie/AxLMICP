@@ -26,8 +26,8 @@ int main()
 		printf("missing file");
 		return 0;
 	}
-	string filename = path + "\\laser_1.txt";
-	string filename1 = path + "\\laser_2.txt";
+	string filename = path + "\\scan002.txt";
+	string filename1 = path + "\\scan003.txt";
 	vector<PointXYZ> * modelslist = ReaddataWithScope(filename.c_str(), scope);//É¨Ãè°ë¾¶´ó¸Å3000cm
 	vector<PointXYZ> * dataslist = ReaddataWithScope(filename1.c_str(), scope);
 
